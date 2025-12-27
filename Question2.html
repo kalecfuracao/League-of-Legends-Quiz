@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Question 2</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+      body {
+        background: radial-gradient(circle at top, #0a0a0f, #000);
+        color: #e0c36c;
+        font-family: 'Cinzel', serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 38px;
+        margin-top: 40px;
+        text-shadow: 0 0 12px rgba(255, 215, 100, 0.5);
+      }
+
+      p {
+        font-size: 24px;
+        max-width: 800px;
+        margin: 20px auto;
+        line-height: 1.4;
+        opacity: 0.95;
+      }
+
+      .champions {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+      }
+
+      .champions img {
+        height: 220px;
+        border: 2px solid #e0c36c;
+        border-radius: 12px;
+        transition: 0.3s;
+      }
+
+      .champions img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(224, 195, 108, 0.5);
+      }
+
+      .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; /* REDUZIDO */
+        margin-top: 10px; /* REDUZIDO */
+      }
+
+      .options p {
+        margin: 0 5px; /* APROXIMA O "or" */
+        font-size: 22px;
+      }
+
+      button {
+        background: linear-gradient(135deg, #1a1a1d, #2d2d31);
+        border: 2px solid #e0c36c;
+        color: #e0c36c;
+        padding: 10px 28px;
+        font-size: 22px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-family: 'Cinzel', serif;
+      }
+
+      button:hover {
+        background: #3a3a40;
+        transform: scale(1.05);
+        box-shadow: 0 0 12px rgba(224, 195, 108, 0.5);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Question 2</h1>
+
+    <p>
+      Which champion of Runeterra unleashes a powerful ability known as <strong>"Final Hour"</strong>?
+    </p>
+
+    <div class="champions">
+      <img src="vayne.jpg" alt="Vayne">
+      <img src="karthus.jpg" alt="Karthus">
+    </div>
+
+    <div class="options">
+      <button><a href="Question3.html">Vayne</a></button>
+      <p>or</p>
+      <button><a href="Wrong.html">Karthus</a></button>
+    </div>
+  </body>
+</html>
