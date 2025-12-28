@@ -65,13 +65,13 @@ All images should be placed in the project root folder.
 ## 📁 Project Structure
 League-of-Legends-Quiz
 │
-├── index.html
-├── first.html
-├── second.html
-├── third.html
-├── fourth.html
+├── quiz.html
+├── Question1.html
+├── Question2.html
+├── Question3.html
+├── Question4.html
+├── Question5.html
 ├── wrong.html
-├── final.html
 │
 ├── karthus.png
 ├── vayne.png
